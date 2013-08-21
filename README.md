@@ -13,3 +13,6 @@ Installation
     $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
     $ cd vagrant-dev-env
     $ vagrant up
+    $ vagrant ssh
+
+Note: this assumes your code is located in ~/Projectx/groupx

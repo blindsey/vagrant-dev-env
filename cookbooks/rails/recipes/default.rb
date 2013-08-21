@@ -11,7 +11,7 @@ end
 
 package "graphviz"
 package "imagemagick"
-package "libxslt-dev"
+package "libxslt1-dev"
 package "libxml2-dev"
 package "nodejs"
 package "redis-server"

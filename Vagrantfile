@@ -2,6 +2,7 @@ Vagrant::Config.run do |config|
   config.vm.box = 'precise64'
   config.vm.host_name = 'orbital'
   config.vm.forward_port 3000, 3000
+  config.vm.forward_port 8080, 8080
   config.vm.share_folder "groupx", "/home/vagrant/groupx", "~/Projects/groupx"
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "cookbooks"
